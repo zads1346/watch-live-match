@@ -1,0 +1,14 @@
+interface:
+  display_name: Live Match Watch
+  short_description: Verify live scores and screenshots from broadcasts
+  default_prompt: Use $watch-live-match to watch this live match, report verified
+    score changes, and continue until my stopping condition.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
